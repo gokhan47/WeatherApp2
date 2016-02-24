@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <com.example.gokhan.weatherapp.TextViewCustomFont
+        android:id="@+id/currentLocationName"
+        style="@style/BoldFont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left|center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/TextSizeMedium"/>
+
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_weather_button_title"
+        android:textColor="@color/grey"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_weather_button"
+        android:textSize="@dimen/TextSizeMedium"/>
+    </RelativeLayout>

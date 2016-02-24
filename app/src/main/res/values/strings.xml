@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="mapping_activty_title">Weather Channel</string>
+
+    <string name="gps_location_off_title">GPS LOCATION SERVICES OFF</string>
+    <string name="gps_location_off_body">In order to determine your current location and nearest retailer, please visit your phone settings menu to enable GPS.</string>
+    <string name="main_weather_button_title">Get Weather</string>
+    <string name="location">location</string>
+    <string name="temperature_output"><![CDATA[%1$d&#176;%2$s]]></string>
+
+    <string name="temperature">Temperature</string>
+    <string name="condition">Condition</string>
+
+</resources>
